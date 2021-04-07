@@ -8,7 +8,7 @@
     "build": "ncc build index.js -o dist",
     "test": "node test/smoke.js"
   },
-  "repository": "https://github.com/wip/action",
+  "repository": "https://github.com/alexbbt/do-not-merge",
   "keywords": [
     "github-action"
   ],
