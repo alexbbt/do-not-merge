@@ -13,7 +13,7 @@ nock("https://api.github.com", {
 })
   .post("/repos/wip/app/statuses/sha123", {
     state: "success",
-    target_url: "https://github.com/wip/action",
+    target_url: "https://github.com/alexbbt/do-not-merge",
     description: "ready for review",
     context: "WIP (action)",
   })
@@ -33,7 +33,7 @@ nock("https://api.github.com", {
 })
   .post("/repos/wip/app/statuses/sha123", {
     state: "pending",
-    target_url: "https://github.com/wip/action",
+    target_url: "https://github.com/alexbbt/do-not-merge",
     description: "work in progress",
     context: "WIP (action)",
   })

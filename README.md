@@ -21,7 +21,7 @@ jobs:
   wip:
     runs-on: ubuntu-latest
     steps:
-      - uses: wip/action@v1
+      - uses: alexbbt/do-not-merge@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
